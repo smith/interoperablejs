@@ -1,3 +1,3 @@
-exports.program = function () {
-    return require('program');
+exports.b = function () {
+    return require('b');
 };
