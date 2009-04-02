@@ -1,6 +1,6 @@
 var console = require('console');
 var test = require('test');
-var print = environment.print;
+var print = sys.print;
 exports.foo = function () {
     return 1;
 };

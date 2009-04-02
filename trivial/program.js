@@ -3,8 +3,8 @@
 //
 
 var print;
-if (environment.print) {
-    print = environment.print;
+if (sys.print) {
+    print = sys.print;
 } else if (typeof alert !== "undefined") {
     print = alert;
 }

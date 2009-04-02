@@ -5,4 +5,4 @@ test.assert(a.foo() == a, 'calling a module member');
 test.assert(foo() != a, 'members not implicitly bound');
 a.set(10);
 test.assert(a.get() == 10, 'get and set')
-environment.print('DONE', 'info');
+sys.print('DONE', 'info');
