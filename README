@@ -12,7 +12,7 @@ compliance/*
     this directory.
 
     All of these tests presume the existence of
-    an "environment" free variable with a "print"
+    an "sys" free variable with a "print"
     method for test reporting.  Tests call
     the "print" method with a "message"
     and a "label" argument that is one of
